@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDL_GAME" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SDL_GAME" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+					<Add directory="src/GAME/GLprimitives/BASEPRIMITIVE" />
+					<Add directory="src/GAME/GLprimitives/QUAD" />
+					<Add directory="src/GAME/GLMainMatrix" />
+					<Add directory="src/OBJECTS/WORLD/TRANSPERANTVECTOR" />
+					<Add directory="src/OBJECTS/WORLD/GRASS" />
+					<Add directory="src/GAME/SHADER/PostProcessingScreen" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SDL_GAME" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+					<Add directory="src/GAME/GLprimitives/BASEPRIMITIVE" />
+					<Add directory="src/GAME/GLprimitives/QUAD" />
+					<Add directory="src/GAME/GLMainMatrix" />
+					<Add directory="src/OBJECTS/WORLD/TRANSPERANTVECTOR" />
+					<Add directory="src/OBJECTS/WORLD/GRASS" />
+					<Add directory="src/GAME/SHADER/PostProcessingScreen" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2" />
+			<Add option="-lSDL2_image" />
+			<Add option="-lSDL2_ttf" />
+			<Add option="-lGL" />
+			<Add option="-lglut" />
+			<Add option="-lGLU" />
+			<Add option="-fopenmp" />
+			<Add option="-lSOIL" />
+			<Add option="-lGLEW" />
+			<Add option="-lXi" />
+			<Add option="-lXmu" />
+			<Add option="-DGL_GLEXT_PROTOTYPES" />
+		</Linker>
+		<Unit filename="src/GAME/GLMainMatrix/MainMatrix.cpp" />
+		<Unit filename="src/GAME/GLMainMatrix/MainMatrix.h" />
+		<Unit filename="src/GAME/Game.cpp" />
+		<Unit filename="src/GAME/Game.h" />
+		<Unit filename="src/GAME/SCENE/Scene.cpp" />
+		<Unit filename="src/GAME/SCENE/Scene.h" />
+		<Unit filename="src/GAME/SHADER/PostProcessingScreen/PostProcessor.cpp" />
+		<Unit filename="src/GAME/SHADER/PostProcessingScreen/PostProcessor.h" />
+		<Unit filename="src/GAME/SHADER/ShaderManager.cpp" />
+		<Unit filename="src/GAME/SHADER/ShaderManager.h" />
+		<Unit filename="src/GrassBindingObject.cpp" />
+		<Unit filename="src/OBJECTS/BASEOBJECT/Object.cpp" />
+		<Unit filename="src/OBJECTS/BASEOBJECT/Object.h" />
+		<Unit filename="src/OBJECTS/PLAYER/Player.cpp" />
+		<Unit filename="src/OBJECTS/PLAYER/Player.h" />
+		<Unit filename="src/OBJECTS/UI/BUTTON/Button.cpp" />
+		<Unit filename="src/OBJECTS/UI/BUTTON/Button.h" />
+		<Unit filename="src/OBJECTS/UI/GRID/Grid.cpp" />
+		<Unit filename="src/OBJECTS/UI/GRID/Grid.h" />
+		<Unit filename="src/OBJECTS/WORLD/COLLIDER/Collider.cpp" />
+		<Unit filename="src/OBJECTS/WORLD/COLLIDER/Collider.h" />
+		<Unit filename="src/OBJECTS/WORLD/GRASS/Grass.cpp" />
+		<Unit filename="src/OBJECTS/WORLD/GRASS/Grass.h" />
+		<Unit filename="src/OBJECTS/WORLD/GRASS/GrassBindingObject.h" />
+		<Unit filename="src/OBJECTS/WORLD/TILEABLE/Tile.cpp" />
+		<Unit filename="src/OBJECTS/WORLD/TILEABLE/Tile.h" />
+		<Unit filename="src/OBJECTS/WORLD/TRANSPERANT/Transperant.cpp" />
+		<Unit filename="src/OBJECTS/WORLD/TRANSPERANT/Transperant.h" />
+		<Unit filename="src/OBJECTS/WORLD/TRANSPERANTVECTOR/TransperantVector.cpp" />
+		<Unit filename="src/OBJECTS/WORLD/TRANSPERANTVECTOR/TransperantVector.h" />
+		<Unit filename="src/SOIL.h" />
+		<Unit filename="src/SOIL2/SOIL2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SOIL2/SOIL2.h" />
+		<Unit filename="src/SOIL2/etc1_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SOIL2/etc1_utils.h" />
+		<Unit filename="src/SOIL2/image_DXT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SOIL2/image_DXT.h" />
+		<Unit filename="src/SOIL2/image_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SOIL2/image_helper.h" />
+		<Unit filename="src/SOIL2/jo_jpeg.h" />
+		<Unit filename="src/SOIL2/pkm_helper.h" />
+		<Unit filename="src/SOIL2/pvr_helper.h" />
+		<Unit filename="src/SOIL2/stb_image.h" />
+		<Unit filename="src/SOIL2/stb_image_write.h" />
+		<Unit filename="src/SOIL2/stbi_DDS.h" />
+		<Unit filename="src/SOIL2/stbi_DDS_c.h" />
+		<Unit filename="src/SOIL2/stbi_ext.h" />
+		<Unit filename="src/SOIL2/stbi_ext_c.h" />
+		<Unit filename="src/SOIL2/stbi_pkm.h" />
+		<Unit filename="src/SOIL2/stbi_pkm_c.h" />
+		<Unit filename="src/SOIL2/stbi_pvr.h" />
+		<Unit filename="src/SOIL2/stbi_pvr_c.h" />
+		<Unit filename="src/SPRITE/Sprite.cpp" />
+		<Unit filename="src/SPRITE/Sprite.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

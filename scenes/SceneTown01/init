@@ -1,0 +1,11 @@
+SetSceneSize -10240 -10240 10240 10240
+HasPlayer 1
+Sprite player_sprite img/player/male_white.png 
+InitializePlayer 0 15 15
+Sprite sprite_brick_top img/world/buildings/brick_top.png 
+Sprite sprite_brick img/world/buildings/brick.png 
+Sprite sprite_grass img/world/terrain/grass.png 
+Sprite sprite_roof img/world/buildings/roof.png 
+Sprite sprite_floors img/world/buildings/floor.png 
+
+Sprite sprite_grass2 img/world/grass/grass0.png 

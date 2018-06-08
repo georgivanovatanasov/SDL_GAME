@@ -1,0 +1,1191 @@
+# depslib dependency file v1.0
+1521206018 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/main.cpp
+	<iostream>
+	<Game.h>
+
+1526556502 /home/gosho/Documents/SDL_GAME/SDL_GAME//Game.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<glm/glm.hpp>
+	<ShaderManager.h>
+	<Object.h>
+	<Sprite.h>
+	<Player.h>
+	<Collider.h>
+	<Scene.h>
+	<iostream>
+	<string>
+	<vector>
+	<memory>
+	<algorithm>
+	<omp.h>
+	<time.h>
+
+1526666766 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Game.cpp
+	"Game.h"
+
+1526556502 /home/gosho/Documents/SDL_GAME/SDL_GAME/Game.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<glm/glm.hpp>
+	<ShaderManager.h>
+	<Object.h>
+	<Sprite.h>
+	<Player.h>
+	<Collider.h>
+	<Scene.h>
+	<iostream>
+	<string>
+	<vector>
+	<memory>
+	<algorithm>
+	<omp.h>
+	<time.h>
+
+1526472729 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Player.cpp
+	"Player.h"
+
+1526470495 /home/gosho/Documents/SDL_GAME/SDL_GAME/Player.h
+	<Object.h>
+	<Collider.h>
+	<Transperant.h>
+	<Grass.h>
+	<GL/glut.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_main.h>
+	<SDL2/SDL_render.h>
+	<SDL2/SDL_opengl.h>
+	<string>
+	<vector>
+
+1526470495 /home/gosho/Documents/SDL_GAME/SDL_GAME//Player.h
+	<Object.h>
+	<Collider.h>
+	<Transperant.h>
+	<Grass.h>
+	<GL/glut.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_main.h>
+	<SDL2/SDL_render.h>
+	<SDL2/SDL_opengl.h>
+	<string>
+	<vector>
+
+1526433774 /home/gosho/Documents/SDL_GAME/SDL_GAME//Object.h
+	<string>
+	<iostream>
+	<Sprite.h>
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+
+1526430542 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Object.cpp
+	"Object.h"
+
+1526433774 /home/gosho/Documents/SDL_GAME/SDL_GAME/Object.h
+	<string>
+	<iostream>
+	<Sprite.h>
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+
+1526498168 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Sprite.cpp
+	"Sprite.h"
+
+1526556617 /home/gosho/Documents/SDL_GAME/SDL_GAME/Sprite.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<string>
+	"SOIL2/SOIL2.h"
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<png.h>
+
+1526556617 /home/gosho/Documents/SDL_GAME/SDL_GAME//Sprite.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<string>
+	"SOIL2/SOIL2.h"
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<png.h>
+
+1521750441 /home/gosho/Documents/SDL_GAME/SDL_GAME//Object.cpp
+	"Object.h"
+
+1526456767 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Collider.cpp
+	"Collider.h"
+
+1526274955 /home/gosho/Documents/SDL_GAME/SDL_GAME/Collider.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<string>
+
+1526274955 /home/gosho/Documents/SDL_GAME/SDL_GAME//Collider.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<string>
+
+1521762210 /home/gosho/Documents/SDL_GAME/SDL_GAME//Globals.hpp
+
+1521762504 /home/gosho/Documents/SDL_GAME/SDL_GAME//Globals.cpp
+	<vector>
+	<Object.h>
+	<Sprite.h>
+
+1522354267 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Camera.cpp
+
+1522354336 /home/gosho/Documents/SDL_GAME/SDL_GAME//Camera.cpp
+
+1522354857 /home/gosho/Documents/SDL_GAME/SDL_GAME//Camera.hpp
+
+1526554409 /home/gosho/Documents/SDL_GAME/SDL_GAME//Scene.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<Object.h>
+	<Sprite.h>
+	<Player.h>
+	<Collider.h>
+	<Grass.h>
+	<Button.h>
+	<Tile.h>
+	<Transperant.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	<vector>
+	<deque>
+	<algorithm>
+	<string>
+	<cstring>
+	<functional>
+	<cmath>
+	<array>
+	<typeinfo>
+
+1526490294 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Scene.cpp
+	"Scene.h"
+
+1526554409 /home/gosho/Documents/SDL_GAME/SDL_GAME/Scene.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<Object.h>
+	<Sprite.h>
+	<Player.h>
+	<Collider.h>
+	<Grass.h>
+	<Button.h>
+	<Tile.h>
+	<Transperant.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	<vector>
+	<deque>
+	<algorithm>
+	<string>
+	<cstring>
+	<functional>
+	<cmath>
+	<array>
+	<typeinfo>
+
+1526288677 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Button.cpp
+	"Button.h"
+
+1526274948 /home/gosho/Documents/SDL_GAME/SDL_GAME/Button.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+
+1522446055 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/StartButton.cpp
+	"StartButton.h"
+
+1522446039 /home/gosho/Documents/SDL_GAME/SDL_GAME/StartButton.h
+	<Object.h>
+	<Button.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+
+1526274948 /home/gosho/Documents/SDL_GAME/SDL_GAME//Button.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+
+1522446039 /home/gosho/Documents/SDL_GAME/SDL_GAME//StartButton.h
+	<Object.h>
+	<Button.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+
+1526413496 /home/gosho/Documents/SDL_GAME/SDL_GAME//Transperant.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<SDL2/SDL_main.h>
+	<SDL2/SDL_render.h>
+	<SDL2/SDL_opengl.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+
+1526456023 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Transperant.cpp
+	"Transperant.h"
+
+1526413496 /home/gosho/Documents/SDL_GAME/SDL_GAME/Transperant.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<SDL2/SDL_main.h>
+	<SDL2/SDL_render.h>
+	<SDL2/SDL_opengl.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+
+1526041991 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Grid.cpp
+	"Grid.h"
+
+1526042246 /home/gosho/Documents/SDL_GAME/SDL_GAME/Grid.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1526456017 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Tile.cpp
+	"Tile.h"
+
+1526288616 /home/gosho/Documents/SDL_GAME/SDL_GAME/Tile.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1526288616 /home/gosho/Documents/SDL_GAME/SDL_GAME//Tile.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1526042246 /home/gosho/Documents/SDL_GAME/SDL_GAME//Grid.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1523994810 /home/gosho/Documents/SDL_GAME/SDL_GAME//Point.hpp
+
+1524588230 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/PlayerInventory.cpp
+	"PlayerInventory.h"
+
+1524588216 /home/gosho/Documents/SDL_GAME/SDL_GAME/PlayerInventory.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+
+1524650548 /home/gosho/Documents/SDL_GAME/SDL_GAME//PlayerInventory.h
+	<Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+
+1215443608 /home/gosho/Documents/SDL_GAME/SDL_GAME//SOIL.h
+
+1215443608 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME//SOIL2/SOIL2.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/SOIL2.h
+
+1521873156 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/etc1_utils.c
+	"etc1_utils.h"
+	<string.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/etc1_utils.h
+
+1521873156 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/image_DXT.c
+	"image_DXT.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/image_DXT.h
+
+1521873156 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/image_helper.c
+	"image_helper.h"
+	<stdlib.h>
+	<math.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/image_helper.h
+
+1521873156 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/SOIL2.c
+	<TargetConditionals.h>
+	<dlfcn.h>
+	<EGL/egl.h>
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<windows.h>
+	<wingdi.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<Carbon/Carbon.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<GL/gl.h>
+	"SOIL2.h"
+	"stb_image.h"
+	"stb_image_write.h"
+	"image_helper.h"
+	"image_DXT.h"
+	"pvr_helper.h"
+	"pkm_helper.h"
+	"jo_jpeg.h"
+	<stdlib.h>
+	<string.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	"stbi_DDS.h"
+	"stbi_pvr.h"
+	"stbi_pkm.h"
+	"stbi_ext.h"
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	"stbi_DDS_c.h"
+	"stbi_pvr_c.h"
+	"stbi_pkm_c.h"
+	"stbi_ext_c.h"
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stbi_DDS.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stbi_pvr.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stbi_pkm.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stbi_ext.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stbi_DDS_c.h
+	"image_DXT.h"
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stbi_pvr_c.h
+	"pvr_helper.h"
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/pvr_helper.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stbi_pkm_c.h
+	"pkm_helper.h"
+	"etc1_utils.h"
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/pkm_helper.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stbi_ext_c.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/stb_image_write.h
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/SOIL2/jo_jpeg.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1506793011 /usr/include/libpng16/png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1506793011 /usr/include/libpng16/pnglibconf.h
+
+1506793011 /usr/include/libpng16/pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
+1526926505 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/Grass.cpp
+	"Grass.h"
+
+1526926480 /home/gosho/Documents/SDL_GAME/SDL_GAME/Grass.h
+	<GL/glew.h>
+	<ShaderManager.h>
+	<Object.h>
+	<Sprite.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<random>
+	<cmath>
+
+1526926752 /home/gosho/Documents/SDL_GAME/SDL_GAME//Grass.h
+	<GL/glew.h>
+	<ShaderManager.h>
+	<Object.h>
+	<Sprite.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<random>
+	<cmath>
+
+1526671626 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/ShaderManager.cpp
+	"ShaderManager.h"
+
+1526671563 /home/gosho/Documents/SDL_GAME/SDL_GAME/ShaderManager.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<ostream>
+
+1526671563 /home/gosho/Documents/SDL_GAME/SDL_GAME//ShaderManager.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<ostream>
+
+1528274941 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/SHADER/ShaderManager.cpp
+	"ShaderManager.h"
+
+1528274914 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/SHADER/ShaderManager.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<ostream>
+
+1528233261 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/BASEOBJECT/Object.cpp
+	"Object.h"
+
+1528231932 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/BASEOBJECT/Object.h
+	<string>
+	<iostream>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/GAME/GLMainMatrix/MainMatrix.h>
+	<src/SPRITE/Sprite.h>
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<glm/ext.hpp>
+
+1528452410 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/SPRITE/Sprite.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<string>
+	"src/SOIL2/SOIL2.h"
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<png.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/SOIL2/SOIL2.h
+
+1528449424 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/PLAYER/Player.cpp
+	"Player.h"
+
+1528232020 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/PLAYER/Player.h
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/OBJECTS/WORLD/COLLIDER/Collider.h>
+	<src/OBJECTS/WORLD/TRANSPERANT/Transperant.h>
+	<src/OBJECTS/WORLD/TRANSPERANTVECTOR/TransperantVector.h>
+	<src/OBJECTS/WORLD/GRASS/Grass.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_main.h>
+	<SDL2/SDL_render.h>
+	<SDL2/SDL_opengl.h>
+	<string>
+	<vector>
+
+1528231932 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/OBJECTS/BASEOBJECT/Object.h
+	<string>
+	<iostream>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/GAME/GLMainMatrix/MainMatrix.h>
+	<src/SPRITE/Sprite.h>
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<glm/ext.hpp>
+
+1528232643 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/OBJECTS/WORLD/COLLIDER/Collider.h
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<string>
+	<cmath>
+
+1528232875 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/OBJECTS/WORLD/TRANSPERANT/Transperant.h
+	<GL/glew.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+
+1528232699 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/OBJECTS/WORLD/GRASS/Grass.h
+	<GL/glew.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/SPRITE/Sprite.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<random>
+	<cmath>
+	<sstream>
+	<string>
+	<cstring>
+	<cmath>
+	<src/OBJECTS/WORLD/GRASS/GrassBindingObject.h>
+
+1528274914 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/GAME/SHADER/ShaderManager.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<ostream>
+
+1528235639 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/UI/BUTTON/Button.cpp
+	"Button.h"
+
+1528232242 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/UI/BUTTON/Button.h
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+
+1528454893 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/Game.cpp
+	"Game.h"
+
+1528249243 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/Game.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<glm/ext.hpp>
+	<src/GAME/GLMainMatrix/MainMatrix.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/GAME/SHADER/PostProcessingScreen/PostProcessor.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/SPRITE/Sprite.h>
+	<src/OBJECTS/PLAYER/Player.h>
+	<src/OBJECTS/WORLD/COLLIDER/Collider.h>
+	<src/GAME/SCENE/Scene.h>
+	<iostream>
+	<string>
+	<vector>
+	<memory>
+	<algorithm>
+	<omp.h>
+	<time.h>
+
+1528232020 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/OBJECTS/PLAYER/Player.h
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/OBJECTS/WORLD/COLLIDER/Collider.h>
+	<src/OBJECTS/WORLD/TRANSPERANT/Transperant.h>
+	<src/OBJECTS/WORLD/TRANSPERANTVECTOR/TransperantVector.h>
+	<src/OBJECTS/WORLD/GRASS/Grass.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_main.h>
+	<SDL2/SDL_render.h>
+	<SDL2/SDL_opengl.h>
+	<string>
+	<vector>
+
+1528231502 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/GAME/SCENE/Scene.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<src/GAME/GLMainMatrix/MainMatrix.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/SPRITE/Sprite.h>
+	<src/OBJECTS/PLAYER/Player.h>
+	<src/OBJECTS/WORLD/COLLIDER/Collider.h>
+	<src/OBJECTS/WORLD/GRASS/Grass.h>
+	<src/OBJECTS/UI/BUTTON/Button.h>
+	<src/OBJECTS/WORLD/TILEABLE/Tile.h>
+	<src/OBJECTS/WORLD/GRASS/GrassBindingObject.h>
+	<src/OBJECTS/WORLD/TRANSPERANT/Transperant.h>
+	<src/OBJECTS/WORLD/TRANSPERANTVECTOR/TransperantVector.h>
+	<glm/ext.hpp>
+	<fstream>
+	<sstream>
+	<iostream>
+	<vector>
+	<deque>
+	<algorithm>
+	<string>
+	<cstring>
+	<functional>
+	<cmath>
+	<array>
+	<typeinfo>
+
+1528232242 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/OBJECTS/UI/BUTTON/Button.h
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+
+1528232815 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/OBJECTS/WORLD/TILEABLE/Tile.h
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1528452563 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/SCENE/Scene.cpp
+	"Scene.h"
+
+1528231502 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/SCENE/Scene.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<src/GAME/GLMainMatrix/MainMatrix.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/SPRITE/Sprite.h>
+	<src/OBJECTS/PLAYER/Player.h>
+	<src/OBJECTS/WORLD/COLLIDER/Collider.h>
+	<src/OBJECTS/WORLD/GRASS/Grass.h>
+	<src/OBJECTS/UI/BUTTON/Button.h>
+	<src/OBJECTS/WORLD/TILEABLE/Tile.h>
+	<src/OBJECTS/WORLD/GRASS/GrassBindingObject.h>
+	<src/OBJECTS/WORLD/TRANSPERANT/Transperant.h>
+	<src/OBJECTS/WORLD/TRANSPERANTVECTOR/TransperantVector.h>
+	<glm/ext.hpp>
+	<fstream>
+	<sstream>
+	<iostream>
+	<vector>
+	<deque>
+	<algorithm>
+	<string>
+	<cstring>
+	<functional>
+	<cmath>
+	<array>
+	<typeinfo>
+
+1527020370 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/main.cpp
+	<iostream>
+	<src/GAME/Game.h>
+
+1528249243 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/GAME/Game.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<glm/ext.hpp>
+	<src/GAME/GLMainMatrix/MainMatrix.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/GAME/SHADER/PostProcessingScreen/PostProcessor.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/SPRITE/Sprite.h>
+	<src/OBJECTS/PLAYER/Player.h>
+	<src/OBJECTS/WORLD/COLLIDER/Collider.h>
+	<src/GAME/SCENE/Scene.h>
+	<iostream>
+	<string>
+	<vector>
+	<memory>
+	<algorithm>
+	<omp.h>
+	<time.h>
+
+1528235700 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/UI/GRID/Grid.cpp
+	"Grid.h"
+
+1528235716 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/UI/GRID/Grid.h
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1528449455 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/COLLIDER/Collider.cpp
+	"Collider.h"
+
+1528232643 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/COLLIDER/Collider.h
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<string>
+	<cmath>
+
+1528449507 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/GRASS/Grass.cpp
+	"Grass.h"
+
+1528232699 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/GRASS/Grass.h
+	<GL/glew.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/SPRITE/Sprite.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<random>
+	<cmath>
+	<sstream>
+	<string>
+	<cstring>
+	<cmath>
+	<src/OBJECTS/WORLD/GRASS/GrassBindingObject.h>
+
+1528449497 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/TILEABLE/Tile.cpp
+	"Tile.h"
+
+1528232815 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/TILEABLE/Tile.h
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1528449182 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/TRANSPERANT/Transperant.cpp
+	"Transperant.h"
+
+1528232875 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/TRANSPERANT/Transperant.h
+	<GL/glew.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+
+1521873156 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/etc1_utils.c
+	"etc1_utils.h"
+	<string.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/etc1_utils.h
+
+1521873156 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/image_DXT.c
+	"image_DXT.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/image_DXT.h
+
+1521873156 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/image_helper.c
+	"image_helper.h"
+	<stdlib.h>
+	<math.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/image_helper.h
+
+1521873156 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/SOIL2.c
+	<TargetConditionals.h>
+	<dlfcn.h>
+	<EGL/egl.h>
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<windows.h>
+	<wingdi.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<Carbon/Carbon.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<GL/gl.h>
+	"SOIL2.h"
+	"stb_image.h"
+	"stb_image_write.h"
+	"image_helper.h"
+	"image_DXT.h"
+	"pvr_helper.h"
+	"pkm_helper.h"
+	"jo_jpeg.h"
+	<stdlib.h>
+	<string.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/SOIL2.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	"stbi_DDS.h"
+	"stbi_pvr.h"
+	"stbi_pkm.h"
+	"stbi_ext.h"
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	"stbi_DDS_c.h"
+	"stbi_pvr_c.h"
+	"stbi_pkm_c.h"
+	"stbi_ext_c.h"
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stbi_DDS.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stbi_pvr.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stbi_pkm.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stbi_ext.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stbi_DDS_c.h
+	"image_DXT.h"
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stbi_pvr_c.h
+	"pvr_helper.h"
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/pvr_helper.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stbi_pkm_c.h
+	"pkm_helper.h"
+	"etc1_utils.h"
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/pkm_helper.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stbi_ext_c.h
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/stb_image_write.h
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1521873156 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SOIL2/jo_jpeg.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1528452476 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/SPRITE/Sprite.cpp
+	"Sprite.h"
+
+1528452410 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/SPRITE/Sprite.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<string>
+	"src/SOIL2/SOIL2.h"
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<png.h>
+
+1527027316 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/GLprimitives/BASEPRIMITIVE/GLprimitive.cpp
+	"GLprimitive.h"
+
+1527024382 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/GLprimitives/BASEPRIMITIVE/GLprimitive.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<glm/glm.hpp>
+	<src/SPRITE/Sprite.h>
+
+1527180340 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/GLprimitives/QUAD/GLquad.cpp
+	"GLquad.h"
+
+1527180190 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/GLprimitives/QUAD/GLquad.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<glm/glm.hpp>
+	<src/SPRITE/Sprite.h>
+
+1527024382 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/GAME/GLprimitives/BASEPRIMITIVE/GLprimitive.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<glm/glm.hpp>
+	<src/SPRITE/Sprite.h>
+
+1527180190 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/GAME/GLprimitives/QUAD/GLquad.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<glm/glm.hpp>
+	<src/SPRITE/Sprite.h>
+
+1528183988 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/GLMainMatrix/MainMatrix.cpp
+	"MainMatrix.h"
+
+1527871052 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/GLMainMatrix/MainMatrix.h
+	<GL/glew.h>
+	<glm/ext.hpp>
+	<string>
+	<iostream>
+
+1527871052 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/GAME/GLMainMatrix/MainMatrix.h
+	<GL/glew.h>
+	<glm/ext.hpp>
+	<string>
+	<iostream>
+
+1526498168 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/SPRITE/Sprite.cpp
+	"Sprite.h"
+
+1528449518 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/TRANSPERANTVECTOR/TransperantVector.cpp
+	"TransperantVector.h"
+
+1528232988 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/TRANSPERANTVECTOR/TransperantVector.h
+	<GL/glew.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1528232988 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/OBJECTS/WORLD/TRANSPERANTVECTOR/TransperantVector.h
+	<GL/glew.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1528220537 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/OBJECTS/WORLD/GRASS/GrassBindingObject.h
+	<GL/glew.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/SPRITE/Sprite.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<random>
+	<vector>
+	<src/OBJECTS/WORLD/GRASS/Grass.h>
+
+1528220546 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/GrassBindingObject.cpp
+	"GrassBindingObject.h"
+
+1528220537 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/OBJECTS/WORLD/GRASS/GrassBindingObject.h
+	<GL/glew.h>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/OBJECTS/BASEOBJECT/Object.h>
+	<src/SPRITE/Sprite.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<random>
+	<vector>
+	<src/OBJECTS/WORLD/GRASS/Grass.h>
+
+1528248003 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/SHADER/PostProcessingScreen/DOFPostProcessor.cpp
+	"DOFPostProcessor.h"
+
+1528247170 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/SHADER/PostProcessingScreen/DOFPostProcessor.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+
+1528247170 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/GAME/SHADER/PostProcessingScreen/DOFPostProcessor.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+
+1528274831 /home/gosho/Documents/SDL_GAME/SDL_GAME//src/GAME/SHADER/PostProcessingScreen/PostProcessor.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/GAME/GLMainMatrix/MainMatrix.h>
+	<glm/ext.hpp>
+
+1528275085 source:/home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/SHADER/PostProcessingScreen/PostProcessor.cpp
+	"PostProcessor.h"
+
+1528274831 /home/gosho/Documents/SDL_GAME/SDL_GAME/src/GAME/SHADER/PostProcessingScreen/PostProcessor.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<src/GAME/SHADER/ShaderManager.h>
+	<src/GAME/GLMainMatrix/MainMatrix.h>
+	<glm/ext.hpp>
+
